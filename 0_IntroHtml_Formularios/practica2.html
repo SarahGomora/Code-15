@@ -5,22 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
+
+    <style>
+        body {
+            background-color: mediumorchid;
+            color:navy;
+        }
+        label{
+            color:palegreen;
+        }
+        h3{
+            color:peachpuff;
+
+        }
+
+    </style>
 </head>
 <body>
     <form action="" method="get">
 <h3>Llena el siguiente formulario</h3>
 <br>
+<br>
         <label for="nombre">Nombre</label>
         <input type="text" name="nombre" id="nombre"/>
+<br>
 <br>
         <label for="apellido">Apellidos</label>
         <input type="text" name="apellidos" id="apellidos"/>
 <br>
+<br>
         <label for="email">Email</label>
         <input type="email" name="email" id="email"/>
 <br>
+<br>
         <label for="edad">Edad</label>
         <input type="number" name="edad" id="edad"/>
+<br>
 <br>
 
         <label for="genero">Selecciona tu género</label>
@@ -37,31 +57,37 @@
         <label for="genero">Otro</label>
         <input type="radio" name="genero" id="Otro"/>
 <br>
+<br>
 
         <label for="contraseña">Contraseña</label>
         <input type="password" name="contraseña" id="contraseña"/>
 <br>
+<br>
         <label for="modulo">Módulo actual</label>
 <br>
-        <label for="introducción">Introducción a HTML</label>
-        <input type="radio" name="modulo" id="Introducción a HTML"/>
- <br>
-        <label for="introducción">Divs</label>
-        <input type="radio" name="modulo" id="Divs"/>
+        <select>
+           <option value="Introducción a HTML">Introducción a HTML</option>
+           <option value="DIVs">DIVs</option>
+           <option value="Forms">Forms</option>
+           <option value="Git">Git</option>
+
+        </select>
+        
 <br>
-        <label for="introducción">Forms</label>
-        <input type="radio" name="modulo" id="Forms"/>
 <br>
         <label for="color">Color favorito</label>
         <input type="color" name="color" id="color"/>
-<br>
+        <br>
+        <br>
         <label for="checkbox">¿Aceptas compartir tus datos con nosotros?</label>
         <input type="checkbox" name="datos" id="datos"/>
+<br>
 <br>
         <label for="checkbox">Puchale aquí si agarraste la onda</label>
         <input type="checkbox" name="datos" id="onda"/>
 <br>
-
+<br>
+<br>
         <button>Submit</button>
     </form>
 
