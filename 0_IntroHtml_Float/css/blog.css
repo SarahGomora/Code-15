@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+  }
+  /* Header */
+  header img {
+    width: 360px;
+    padding-left: 150px;
+  }
+  /* Nav */
+  nav {
+    background-color: #c72d82;
+    text-align: left;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 200px;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding-right: 25px;
+  }
+  /* Main */
+  h2 {
+    color: #41a4dd;
+  }
+  article img {
+    width: 240px;
+  }
+  article button {
+    font-weight: bolder;
+    background-color: #41a4dd;
+    color: white;
+    border-color: #41a4dd;
+    padding: 4px 16px;
+  }
+
+  .texto {
+    text-align: justify;
+  }
+  .imgparrafo {
+    float:left;
+    margin-right: 20px;
+    }
+
+  aside a {
+    color: #41a4dd;
+    text-decoration: none;
+   
+  }
+  ul {
+    list-style-type: none;
+    padding-left: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .lista {
+    margin-top: 5px;
+    margin-bottom:5px;
+    padding-top: 5px; 
+  }
+  /* Footer */
+  footer > section {
+    background-color: #c72d82;
+    color: white;
+
+  }
+  footer > div {
+    background-color: #9c2467;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    padding: 5px 0;
+  }
+
+  .menu-below {
+    color:white;
+    text-decoration:none;
+    margin-left: 10px;
+  }
+  #ultimaseccion {
+    display:flex;
+  }
+.nosotros {
+  width: 50vw;
+  text-align: justify;
+  padding-left: 200px;
+  padding-right: 300px;
+}
+.menunave {
+  width:50vw;
+  text-align: right;
+  padding-right: 200px;
+}
+  main {
+      display:flex;
+  }
+  .derecha {
+    width: 60%;
+    padding: 20px 20px 20px 200px;
+      }
+  .izquierda {
+    width:40%;
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+/* Tablet 768*/
+
+  @media screen and (max-width: 768px)
+  { 
+    
+  }

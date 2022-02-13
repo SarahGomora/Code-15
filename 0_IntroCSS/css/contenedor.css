@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navegador {
+    align-items: center;
+    background-color: black;
+    width: 100%;
+    padding: 10px;
+}
+.liga {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+@media screen and (max-width: 1000px)
+{ .box1 {width: 40%;
+        height:100vh;
+        display: inline-block;}
+
+    .box2 {width: 60%;
+            height:100vh;
+            display:inline-block;}
+    
+}
+.box1 {
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+    background-color: gainsboro;
+    flex-wrap: wrap;
+    
+}
+
+#foto {
+    width: 38vw;
+    height: auto;
+
+}
+.imgbox1 { 
+    display:block;
+    width: 200px;
+    height: 220px;    
+}
+
+.box2 {
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+    background-color: antiquewhite;
+}
+
+.imgbox2 {
+    width: 58vw;
+
+}
